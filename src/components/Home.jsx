@@ -23,7 +23,7 @@ export const Home = ({ t }) => {
                     .includes("descargar");
                   const cvUrl = isSpanish
                     ? "/cv/SEBASTIAN_GIL_RUEDA_CV.pdf"
-                    : "/cv/en - SEBASTIAN_GIL_RUEDA_CV.PDF";
+                    : "/cv/EN_SEBASTIAN_GIL_RUEDA_CV.PDF";
 
                   const link = document.createElement("a");
                   link.href = cvUrl;
