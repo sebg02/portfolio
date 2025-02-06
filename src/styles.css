@@ -1,0 +1,35 @@
+html {
+  scroll-behavior: smooth !important;
+}
+
+body {
+  font-family: "Chakra Petch", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #eaf6ff !important;
+}
+
+.text-light {
+  color: #eaf6ff !important;
+}
+
+.primary-color {
+  background-color: #27445d !important;
+}
+
+.text-primary-color {
+  color: #27445d;
+}
+
+.secondary-color {
+  background-color: #497d74;
+}
+
+.third-color {
+  background-color: #27445d;
+}
+
+.skill-icon {
+  width: 80px;
+  height: auto;
+}
