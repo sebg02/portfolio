@@ -46,6 +46,12 @@ const translations = {
       title: "Studies and Certifications",
       degrees: [
         {
+          title: "Systems Engineering",
+          institution:
+            "Corporación Unificada Nacional de Educación Superior (CUN)",
+          year: "2025-Present",
+        },
+        {
           title: "Associate Degree in Software Analysis and Development",
           institution: "SENA",
           year: "2022-2024",
@@ -126,6 +132,12 @@ const translations = {
     education: {
       title: "Estudios y certificaciones  ",
       degrees: [
+        {
+          title: "Ingeniería de Sistemas",
+          institution:
+            "Corporación Unificada Nacional de Educación Superior (CUN)",
+          year: "2025-Actualidad",
+        },
         {
           title: "Tecnólogo en Análisis y Desarrollo de Software",
           institution: "SENA",
