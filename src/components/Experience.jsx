@@ -2,7 +2,7 @@ export const Experience = ({ t }) => {
   return (
     <section id="experience" class="p-5 bg-light">
       <div class="container">
-        <h2 class="text-center mt-5 mb-5 text-primary fw-bold ">
+        <h2 class="text-center text-primary custom-title">
           {t.experience.title}
         </h2>
         <div class="position-relative">
@@ -16,13 +16,13 @@ export const Experience = ({ t }) => {
                 }`}
               >
                 <h4 class="text-primary fw-bold mb-3">{job.position}</h4>
-                <h5 class="text-muted mb-3">{job.company}</h5>
-                <p class="text-primary mb-3">
+                <h5 class="text-dark mb-3">{job.company}</h5>
+                <p class="text-primary fw-bold mb-3">
                   <small>{job.period}</small>
                 </p>
                 <ul class="list-unstyled">
                   {job.description.map((task, i) => (
-                    <li key={i} class="text-secondary mb-2">
+                    <li key={i} class="text-black mb-2">
                       • {task}
                     </li>
                   ))}

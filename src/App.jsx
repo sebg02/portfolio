@@ -10,6 +10,7 @@ import { Skills } from "./components/Skills.jsx";
 import { Projects } from "./components/Projects.jsx";
 import { Experience } from "./components/Experience.jsx";
 import { Studies } from "./components/Studies.jsx";
+import { Footer } from "./components/Footer.jsx";
 
 const Main = () => {
   const { language, switchLanguage, t } = useContext(LanguageContext);
@@ -24,6 +25,7 @@ const Main = () => {
       <Experience t={t}> </Experience>
       <Projects t={t}></Projects>
       <Contact t={t}></Contact>
+      <Footer></Footer>
     </div>
   );
 };

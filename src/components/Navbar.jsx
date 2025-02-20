@@ -8,7 +8,7 @@ export const Navbar = ({ t, switchLanguage }) => {
 
   return (
     <nav className="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
-      <div className="container-fluid">
+      <div className="container-fluid px-2 px-lg-5">
         <a className="navbar-brand" href="#home">
           {t.menus.home}
         </a>
@@ -33,7 +33,7 @@ export const Navbar = ({ t, switchLanguage }) => {
               { href: "#projects", label: t.menus.projects },
               { href: "#contact", label: t.menus.contact },
             ].map((item, index) => (
-              <li className="nav-item" key={index}>
+              <li className="nav-item mx-lg-3" key={index}>
                 <a
                   className="nav-link"
                   href={item.href}
